@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A1ACAD6F19C857C000C58B4C /* hello.h in Headers */ = {isa = PBXBuildFile; fileRef = A1ACAD6E19C857C000C58B4C /* hello.h */; };
+		A1ACAD7119C857D700C58B4C /* hello.cc in Sources */ = {isa = PBXBuildFile; fileRef = A1ACAD7019C857D700C58B4C /* hello.cc */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A1005B3C19C856FB009DD086 /* libXcodeTestCPP.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libXcodeTestCPP.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ACAD6E19C857C000C58B4C /* hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hello.h; sourceTree = "<group>"; };
+		A1ACAD7019C857D700C58B4C /* hello.cc */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = hello.cc; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,8 @@
 		A1005B3319C856FB009DD086 = {
 			isa = PBXGroup;
 			children = (
+				A1ACAD7019C857D700C58B4C /* hello.cc */,
+				A1ACAD6E19C857C000C58B4C /* hello.h */,
 				A1005B3D19C856FB009DD086 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1ACAD6F19C857C000C58B4C /* hello.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +107,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1ACAD7119C857D700C58B4C /* hello.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +219,7 @@
 				A1005B4219C856FB009DD086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
